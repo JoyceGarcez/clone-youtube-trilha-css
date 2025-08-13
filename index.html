@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clone – YouTube</title>
+  
+  <!-- Fontes do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  
+  <!-- Link para o seu arquivo CSS externo -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="left">
+      <div class="menu-btn"><span class="material-symbols-outlined">menu</span></div>
+      <a class="logo" href="#">
+        <span class="logo-icon"></span>
+        <span>YouTube</span>
+      </a>
+    </div>
+    <div class="center">
+      <div class="search-wrap">
+        <input class="search-input" placeholder="Pesquisar" />
+        <button class="search-btn"><span class="material-symbols-outlined">search</span></button>
+      </div>
+      <button class="mic-btn"><span class="material-symbols-outlined">mic</span></button>
+    </div>
+    <div class="right">
+      <div class="icon-btn"><span class="material-symbols-outlined">video_call</span></div>
+      <div class="icon-btn"><span class="material-symbols-outlined">notifications</span></div>
+      <!-- IMAGEM DO AVATAR DO USUÁRIO -->
+      <img class="avatar" style="width: 32px; height: 32px;" src="./img/meuava.JPG" alt="Avatar do usuário">
+    </div>
+  </header>
+
+  <main class="app">
+    <div class="player-col">
+      <div class="player">
+        <!-- IMAGEM DO PLAYER -->
+        <img src="https://placehold.co/1280x720/000000/cccccc?text=dio.me_" alt="Player do vídeo">
+      </div>
+      <h1 class="video-title">Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h1>
+      <div class="actions-row">
+        <div class="channel">
+          <!-- IMAGEM DO CANAL -->
+          <img class="avatar" src="./img/logo.jpg" alt="Avatar do canal DIO">
+          <div class="ch-meta">
+            <span class="ch-name">DIO</span>
+            <span class="ch-subs">813 mil inscritos</span>
+          </div>
+          <button class="subscribe">INSCREVA-SE</button>
+        </div>
+        <div class="cta">
+          <div class="chip"><span class="material-symbols-outlined">thumb_up</span><span class="count">2 mil</span></div>
+          <div class="chip"><span class="material-symbols-outlined">thumb_down</span><span>Não gostei</span></div>
+          <div class="chip"><span class="material-symbols-outlined">share</span><span>Compartilhar</span></div>
+          <div class="chip"><span class="material-symbols-outlined">file_download</span><span>Download</span></div>
+          <div class="chip"><span class="material-symbols-outlined">more_horiz</span></div>
+        </div>
+      </div>
+      <div class="desc-box">
+        <div class="views-date">28.618 visualizações • Transmitido ao vivo em 23 ago. de 2022</div>
+        <div class="desc">Inicie uma jornada no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things...</div>
+      </div>
+    </div>
+    <aside class="rec-col">
+      <!-- VÍDEOS RECOMENDADOS -->
+      <article class="rec-card">
+        <img class="thumb" src="./img/1ciencia.png" alt="Thumbnail de vídeo">
+        <div class="rec-meta">
+          <div class="rec-title">Geração Tech Unimed - BH - Ciência de Dados</div>
+          <div class="rec-channel">DigitalInnovationOne</div>
+          <div class="rec-stats">2,1 mil visualizações • há 2 dias</div>
+        </div>
+      </article>
+      <article class="rec-card">
+        <img class="thumb" src="./img/2scrum.png" alt="Thumbnail de vídeo">
+        <div class="rec-meta">
+          <div class="rec-title">Scrum Talks</div>
+          <div class="rec-channel">DigitalInnovationOne</div>
+          <div class="rec-stats">1,6 mil visualizações • há 3 dias</div>
+        </div>
+      </article>
+      <article class="rec-card">
+        <img class="thumb" src="./img/3fast.png" alt="Thumbnail de vídeo">
+        <div class="rec-meta">
+          <div class="rec-title">Machine Learning Avançado - Fast Track</div>
+          <div class="rec-channel">DigitalInnovationOne</div>
+          <div class="rec-stats">1,7 mil visualizações • há 4 dias</div>
+        </div>
+      </article>
+      <article class="rec-card">
+        <img class="thumb" src="./img/4project.png" alt="Thumbnail de vídeo">
+        <div class="rec-meta">
+          <div class="rec-title">Global Skills #2 - Project Planning</div>
+          <div class="rec-channel">DigitalInnovationOne</div>
+          <div class="rec-stats">971 visualizações • há 5 dias</div>
+        </div>
+      </article>
+      <article class="rec-card">
+        <img class="thumb" src="./img/5python.png" alt="Thumbnail de vídeo">
+        <div class="rec-meta">
+          <div class="rec-title">Como aprender a programar Python do ZERO</div>
+          <div class="rec-channel">DigitalInnovationOne</div>
+          <div class="rec-stats">711 visualizações • há 6 dias</div>
+        </div>
+      </article>
+        <article class="rec-card">
+        <img class="thumb" src="./img/1ciencia.png" alt="Thumbnail de vídeo">
+        <div class="rec-meta">
+          <div class="rec-title">Geração Tech Unimed - BH - Ciência de Dados</div>
+          <div class="rec-channel">DigitalInnovationOne</div>
+          <div class="rec-stats">2,1 mil visualizações • há 2 dias</div>
+        </div>
+      </article>
+      <article class="rec-card">
+        <img class="thumb" src="./img/2scrum.png" alt="Thumbnail de vídeo">
+        <div class="rec-meta">
+          <div class="rec-title">Scrum Talks</div>
+          <div class="rec-channel">DigitalInnovationOne</div>
+          <div class="rec-stats">1,6 mil visualizações • há 3 dias</div>
+        </div>
+      </article>
+      <article class="rec-card">
+        <img class="thumb" src="./img/3fast.png" alt="Thumbnail de vídeo">
+        <div class="rec-meta">
+          <div class="rec-title">Machine Learning Avançado - Fast Track</div>
+          <div class="rec-channel">DigitalInnovationOne</div>
+          <div class="rec-stats">1,7 mil visualizações • há 4 dias</div>
+        </div>
+      </article>
+      <article class="rec-card">
+        <img class="thumb" src="./img/4project.png" alt="Thumbnail de vídeo">
+        <div class="rec-meta">
+          <div class="rec-title">Global Skills #2 - Project Planning</div>
+          <div class="rec-channel">DigitalInnovationOne</div>
+          <div class="rec-stats">971 visualizações • há 5 dias</div>
+        </div>
+      </article>
+    </aside>
+  </main>
+</body>
+</html>
